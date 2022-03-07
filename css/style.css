@@ -7,5 +7,118 @@
 }
 
 body {
+  padding: 24px;
   font-family: 'Roboto', sans-serif;
+}
+
+footer {
+  background-color: #0F75BC;
+  min-height: 60px;
+  width: 100%;
+  text-align: center;
+  padding: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  color: #FFF;
+  align-self: center;
+  position: relative;
+  top: 50%;
+  font-weight: 200;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+}
+
+header{
+  background-color: #FFF;
+}
+
+.primary-button{
+  background-color: #0F75BC;
+  border-radius: 2px;
+  width: 280px;
+  height: 48px;
+  padding: 4px;
+  text-align: center;
+  font-size: medium;
+  font-weight: 500;
+  font-variant-caps:all-small-caps;
+  color: #FFF;
+  
+
+}
+.login-header{
+  padding: 20px;
+  display: flex;
+  background-color: #FFF;
+  height:80px;
+  margin-bottom: 36px;
+}
+
+.login-welcome{
+  position: relative;
+  text-align: center;
+  width: fit-content;
+  margin-top: 36px;
+}
+
+
+.login-form{
+  stroke-width: 1px;  
+  border: #0F75BC;
+  border-radius: 8px;
+  padding: 12px;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+
+}
+
+.product-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 16px;
+}
+
+.container {
+  display: flexbox;
+  margin: 40px;
+  padding:40px ;
+}
+
+.auth-form-body {
+  width: 320px;
+  padding: 16px;
+  font-size: 14px;
+  border: 2px solid #0F75BC;
+  border-radius: 6px;
+}
+.signin-container {
+  padding: 16px;
+  text-align: center;
+  border: 2px solid #0F75BC;
+  border-radius: 6px;
+}
+
+.form-field{
+  margin-bottom: 16px;
+}
+
+.btn, .btn-primary{
+  background-color: #0F75BC !important;
+  width:100% !important;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

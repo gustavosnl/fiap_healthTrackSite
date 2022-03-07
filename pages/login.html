@@ -2,20 +2,40 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/style.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css"/>
     <title>Health track Login</title>
   </head>
   <body>
-    <form class="login" action="dashboard.html" method="post">
-      <label for="login">Usuário</label>
-      <input type="email" name="login" value="" required><br>
+    <script src="../bootstrap/bootstrap.bundle.min.js"></script>
 
+    <header class="login-header">
+        <img class="logo" src="../imgRes/logo.svg"/>
+        <h1 class="product-name">Health<br>Track</h1>
+    </header>
+    <h3 class="login-welcome">Faça seu login no Health track</h3>
 
-      <label for="password">Senha</label>
-      <input type="password" name="password" required><br>
-
-      <input type="submit" name="doLogin" value="Fazer Login">
-    </form>
+    <div class="container auth-form-body">
+      <form class="login-form " action="dashboard.html" method="post">
+        <div class="form-field">
+          <label>E-mail</label>
+          <input type="email" class="form-control form-control-lg" id="login" required>
+        </div>
+        <div class="form-field">
+          <label>Senha</label>
+          <input type="password" class="form-control form-control-lg" name="password" id="pwd" required>
+        </div>
+        <div class="button">
+          <button type="submit" class="btn btn-lg btn-primary" name="doLogin">Fazer login</button>
+        </div>
+      </form>
+    </div>
+     <p class="signin-container">Ainda não tem uma conta? <a href="signup.html">Cadastre-se aqui.</a></p>
+   
+    <footer>
+      <p>Gustavo dos Santos Nunes Lima RM92514 <br>1TDSOR_2021-2</p>
+    </footer>
 
   </body>
 </html>
