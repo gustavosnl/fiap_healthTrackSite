@@ -2,9 +2,100 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css"/>
     <title>Cadastre-se</title>
   </head>
   <body>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputNome" class="form-label">Nome</label>
+        <input type="email" class="form-control" id="inputNome">
+      </div>
+      <div class="col-md-6">
+        <label for="inputSobrenome" class="form-label">Sobrenome</label>
+        <input type="email" class="form-control" id="inputSobrenome">
+      </div>
+      <p class="form-label">Gênero</p>
+      <div class="form-check form-check-inline col-md-1">
+        <input class="form-check-input" type="radio" name="radioGenero" id="radioGenero1" value="Masculino">
+        <label class="form-check-label" for="radioGenero3">Masculino</label>
+      </div>
+      <div class="form-check form-check-inline col-md-1">
+        <input class="form-check-input" type="radio" name="radioGenero" id="radioGenero2" value="Feminino">
+        <label class="form-check-label" for="radioGenero3">Feminino</label>
+      </div>
+      <div class="form-check form-check-inline col-md-5">
+        <input class="form-check-input" type="radio" name="radioGenero" id="radioGenero3" value="Outro">
+        <label class="form-check-label" for="radioGenero3">Outro</label>
+      </div> <br>
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-3">
+        <label for="inputSenha" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="inputSenha">
+      </div>
+      <div class="col-md-3">
+        <label for="inputConfirmaSenha" class="form-label">Confirmar Senha</label>
+        <input type="password" class="form-control" id="inputConfirmaSenha">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Logradouro</label>
+        <input type="text" class="form-control" id="inputAddress" ">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Complemento</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento, Bloco, Quadra, etc">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Cidade</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">UF</label>
+        <select id="inputState" class="form-select">
+          <option selected></option>
+          <option>Acre (AC)</option>
+          <option>Alagoas (AL)</option>
+          <option>Amapá (AP)</option>
+          <option>Amazonas (AM)</option>
+          <option>Bahia (BA)</option>
+          <option>Ceará (CE)</option>
+          <option>Distrito Federal (DF)</option>
+          <option>Espírito Santo (ES)</option>
+          <option>Goiás (GO)	</option>
+          <option>Maranhão (MA)	</option>
+          <option>Mato Grosso (MT)	</option>
+          <option>Mato Grosso do Sul (MS)	</option>
+          <option>Minas Gerais (MG)	</option>
+          <option>Pará (PA)	</option>
+          <option>Paraíba (PB)	</option>
+          <option>Paraná (PR)	</option>
+          <option>Pernambuco (PE)	</option>
+          <option>Piauí (PI)	</option>
+          <option>Rio de Janeiro (RJ)	</option>
+          <option>Rio Grande do Norte (RN)	</option>
+          <option>Rio Grande do Sul (RS)	</option>
+          <option>Rondônia (RO)</option>
+          <option>Roraima (RR)	</option>
+          <option>Santa Catarina (SC)	</option>
+          <option>São Paulo (SP)</option>
+          <option>Sergipe (SE)	</option>
+          <option>Tocantins (TO)	</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputCEP" class="form-label">CEP</label>
+        <input type="text" class="form-control" id="inputCEP">
+      </div>
 
+      <div class="col-4">
+        <button type="submit" class="btn btn-primary">Cadastrar no HealthTrack</button>
+      </div>
+    </form>
+  
   </body>
 </html>
