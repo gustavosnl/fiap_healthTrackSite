@@ -2,9 +2,211 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Página Inicial</title>
   </head>
   <body>
-    <p>DASHBOARD</p>
+    <header class="shadow-sm">
+      <div class="dashboard-header">
+        <img class="logo" src="../imgRes/logo.svg"/>
+        <h1 class="product-name">Health<br>Track</h1>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="personal_info.html">Meu Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registro de atividades</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+    <div class="container mt-5">
+      <div class="col-sm-4">
+        <h3>Dieta</h3
+        <div class="accordion accordion-flush" id="accordion-diet">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+               Café da manhã
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion-diet">
+              <div class="accordion-body">
+                <ul>
+                  <li>Opção 1: 1 xícara de café com leite desnatado, adoçado com 4 gotas de
+                    adoçante à base de sucralose ou stevia<br>
+                    + 1 unidade de ovo mexido ou cozido<br>
+                    + 2 fatias de queijo minas </li>
+                  <li>Opção 2: 1 xícara de café com leite desnatado, adoçado com 4 gotas de
+                    adoçante à base de sucralose ou stevia<br>
+                    + 7 unidades de torrada integral MAGIC TOAST, com creme de ricota light ou
+                    geleia diet de frutas QUEENSBERRY </li>
+                  <li>Opção 3: 1 xícara de café com leite desnatado, adoçado com 4 gotas de
+                    adoçante à base de sucralose ou stevia
+                    + 60g (2 col de sopa) de cuscuz com 1 unidade de ovo mexido e leite desnatado</li>
+                </ul>
+                <p>Atenção: Variar as opções durante a semana, nunca consuma apenas uma
+                  única opção.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Almoço
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion-diet">
+              <div class="accordion-body">
+                <p>Salada: Acelga, alface americano, lisa ou roxa, endívia, agrião, espinafre,
+                  rúcula, mostarda, pepino, couve. Todos os dias à vontade.</p>
+                <p>Legumes: berinjela, abobrinha, repolho, chuchu, brócolis, aspargos, etc. Todos
+                  os dias à vontade. Evitar: cenoura, batata, abóbora e beterraba, por conta do
+                  alto índice glicêmico. </p>
+
+                  <table class="table">
+                    <thead>
+                        <th scope="col">Opção de Carboidrato</th>
+                    </thead>
+                    <tbody>
+                      <tr>                          
+                        <td colspan="2">ARROZ INTEGRAL, NEGRO OU 7 GRÃOS</td>
+                        <td>1 Colher de servir</td>
+                        <td>100g</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">MACARRÃO INTEGRAL OU DE ABOBRINHA OU PUPUNHA</td>
+                        <td>1 Pegador</td>
+                        <td>80g</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">QUINOA</td>
+                        <td>3 colheres de sopa</td>
+                        <td>70g</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">PURÊ DE MANDIOQUINHA</td>
+                        <td>3 colheres de sopa</td>
+                        <td>70g</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>*Não misturar os carboidratos, sempre consuma um ou outro.</p>
+                  <table class="table">
+                    <thead>
+                        <th scope="col">Opção de Proteína</th>
+                    </thead>
+                    <tbody>
+                      <tr>                          
+                        <td colspan="2">FRANGO - PEITO</td>
+                        <td>2 FILÉS</td>
+                        <td>160G</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">CARNE BOVINA</td>
+                        <td>2 FILÉS</td>
+                        <td>160G</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">PEIXE</td>
+                        <td>2 FILÉS</td>
+                        <td>180G</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">SALMÃO GRELHADO</td>
+                        <td>3 PEDAÇOS MÉDIOS</td>
+                        <td>150G</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>*Tente variar as opções proteicas no decorrer da semana. Dê preferência para preparações grelhadas. Caso consuma carne em pedaços, consumir 3 pedaços médios, caso consuma carne moída ou frango desfiado, consumir 1 colher de servir.</p>
+                  <table class="table">
+                    <thead>
+                        <th scope="col">Opção de Leguminosas</th>
+                    </thead>
+                    <tbody>
+                      <tr>                          
+                        <td colspan="2">FEIJÃO</td>
+                        <td>1 CONCHA (50% GRÃO, 50% CALDO)</td>
+                        <td>50G</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">LENTILHA</td>
+                        <td>1 CONCHA</td>
+                        <td>50G</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">GRÃO DE BICO</td>
+                        <td>2 COL. DE SOPA</td>
+                        <td>45G</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">SOJA</td>
+                        <td>2 COL. DE SOPA</td>
+                        <td>40G</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p>*Consumir leguminosas diariamente. Poderá consumir lentilha, grão de bico e soja com a salada. </p> 
+              </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Lanche da tarde
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion-diet">
+              <div class="accordion-body">
+                <ul>
+                  <li>Opção 1: 1 unidade de banana prata + 4 unidades de castanha de caju</li>
+                  <li>Opção 2: 1 fatia de melão ou melancia (100g)</li>
+                  <li>Opção 3: 1 unidade de iogurte ACTIVIA ZERO GORDURAS ou MOLICO ZERO + 2 fatias de queijo minas</li>
+                  <li>Opção 4: 1 unidade de pera ou pêssego ou kiwi ou goiaba ou 15 unidades de uvas ou 1 unidade de ameixa ou mexerica + 5 unidades de amêndoas </li>
+                </ul>   
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Jantar
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordion-diet">
+              <div class="accordion-body">
+                <ul>
+                  <li>Opção 1: Salada e legumes (igual ao almoço) + 1 filé grande (150 g) de carne,
+                    frango (grelhado). *Tente variar as opções proteicas no decorrer da semana.
+                    Caso consuma frango desfiado ou carne moída, consumir 2 colheres de servir.</li>
+                  <li>Opção 2: Salada e legumes (igual ao almoço) + omelete (2 unidades de ovos)
+                    recheado com queijo minas (abusar dos temperos naturais - alecrim, cebolinha,
+                    coentro, cúrcuma, salsa, salsinha, orégano).</li>
+                  <li>Opção 3: 2 unidades de RAP10 integral
+                    + 2 fatias de queijo minas
+                    + rodelas de tomate e orégano à gosto </li>
+                  <li>Opção 4: 1 unidade de crepioca*
+                    + 2 fatias de queijo minas
+                    *Ingredientes para a crepioca: 1 ovo (clara e gema), 1 colher de sopa de goma
+                    de tapioca, 1 col de sopa de chia, uma pitada de sal e temperos naturais à gosto.
+                    Bata tudo com um garfo e, em seguida, transfira para a frigideira. Para recheio
+                    utilize o queijo minas. </li>
+                </ul>   
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
